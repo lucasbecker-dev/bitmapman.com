@@ -1,0 +1,434 @@
+/* Copyright ©️ Lucas Becker 2021. All rights reserved. */
+/*************/
+/* ROOT VARS */
+/*************/
+:root {
+  /* Color palette */
+  --dark-black: #060608;
+  --blue-black: #141013;
+  --dark-blue-red: #3b1725;
+  --dark-red: #73172d;
+  --red: #b4202a;
+  --red-orange: #df3e23;
+  --orange: #fa6a0a;
+  --yellow-orange: #f9a31b;
+  --yellow: #ffd541;
+  --bright-yellow: #fffc40;
+  --light-yellow-green: #d6f264;
+  --yellow-green: #9cdb43;
+  --light-green: #59c135;
+  --green: #14a02e;
+  --dark-green: #1a7a3e;
+  --blue-green: #24523b;
+  --dark-blue-green: #122020;
+  --dark-blue: #143464;
+  --blue: #285cc4;
+  --light-blue: #249fde;
+  --teal: #20d6c7;
+  --light-teal: #a6fcdb;
+  --white: #ffffff;
+  --yellow-white: #fef3c0;
+  --light-pink: #fad6b8;
+  --pink: #f5a097;
+  --dark-pink: #e86a73;
+  --light-purple: #bc4a9b;
+  --purple: #793a80;
+  --dark-purple: #403353;
+  --purple-black: #242234;
+  --brown-black: #221c1a;
+  --dark-brown: #322b28;
+  --brown: #71413b;
+  --light-brown: #bb7547;
+  --tan: #dba463;
+  --light-tan: #f4d29c;
+  --grey-white: #dae0ea;
+  --lighter-grey: #b3b9d1;
+  --light-grey: #8b93af;
+  --grey: #6d758d;
+  --dark-grey: #4a5462;
+  --grey-black: #333941;
+  --clay-black: #422433;
+  --dark-clay: #5b3138;
+  --clay: #8e5252;
+  --light-clay: #ba756a;
+  --clay-white: #e9b5a3;
+  --sky-white: #e3e6ff;
+  --light-sky: #b9bffb;
+  --sky: #849be4;
+  --dark-sky: #588dbe;
+  --jade-sky: #477d85;
+  --dark-jade: #23674e;
+  --jade: #328464;
+  --light-jade: #5daf8d;
+  --lighter-jade: #92dcba;
+  --jade-white: #cdf7e2;
+  --sand-white: #e4d2aa;
+  --lighter-sand: #c7b08b;
+  --light-sand: #a08662;
+  --sand: #796755;
+  --dark-sand: #5a4e44;
+  --sand-black: #423934;
+}
+
+/********/
+/* TAGS */
+/********/
+body {
+  scroll-behavior: smooth;
+}
+
+/***********/
+/* CLASSES */
+/***********/
+/* Flex Classes */
+.flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-row-nowrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Padding classes */
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 2rem;
+}
+
+.p-5 {
+  padding: 2.5rem;
+}
+
+.p-6 {
+  padding: 3rem;
+}
+
+/* Padding left */
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+.pl-2 {
+  padding-left: 1rem;
+}
+
+.pl-3 {
+  padding-left: 1.5rem;
+}
+
+.pl-4 {
+  padding-left: 2rem;
+}
+
+.pl-5 {
+  padding-left: 2.5rem;
+}
+
+.pl-6 {
+  padding-left: 3rem;
+}
+
+/* Padding right */
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 1rem;
+}
+
+.pr-3 {
+  padding-right: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 2rem;
+}
+
+.pr-5 {
+  padding-right: 2.5rem;
+}
+
+.pr-6 {
+  padding-right: 3rem;
+}
+
+/* Padding top */
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 1rem;
+}
+
+.pt-3 {
+  padding-top: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 2rem;
+}
+
+.pt-5 {
+  padding-top: 2.5rem;
+}
+
+.pt-6 {
+  padding-top: 3rem;
+}
+
+/* Padding bottom */
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 2rem;
+}
+
+.pb-5 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 3rem;
+}
+
+/* Margin classes */
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.m-3 {
+  margin: 1.5rem;
+}
+
+.m-4 {
+  margin: 2rem;
+}
+
+.m-5 {
+  margin: 2.5rem;
+}
+
+.m-6 {
+  margin: 3rem;
+}
+
+/* Margin left */
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 2rem;
+}
+
+.ml-5 {
+  margin-left: 2.5rem;
+}
+
+.ml-6 {
+  margin-left: 3rem;
+}
+
+/* Margin right */
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 2.5rem;
+}
+
+.mr-6 {
+  margin-right: 3rem;
+}
+
+/* Margin top */
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 2.5rem;
+}
+
+.mt-6 {
+  margin-top: 3rem;
+}
+
+/* Margin bottom */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 3rem;
+}
+
+/* Width classes */
+.fit-content {
+  min-width: fit-content;
+}
+
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+/* Mobile screen size */
+@media screen and (max-width: 600px) {
+
+}
+
+/* Tablet screen size */
+@media screen and (max-width: 900px) {
+
+}
+
+/* Laptop/Monitor screen size */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* Widescreen */
+@media screen and (min-width: 1201px) {
+
+}
+
+/* Landscape orientation */
+@media screen and (orientation: landscape){
+
+}
+
+/* Portrait orientation */
+@media screen and (orientation: portrait) {
+
+}
