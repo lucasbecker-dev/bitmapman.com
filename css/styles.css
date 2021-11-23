@@ -69,6 +69,9 @@
   --sand: #796755;
   --dark-sand: #5a4e44;
   --sand-black: #423934;
+
+  /* Other vars */
+  --navbar-height: 3rem;
 }
 
 /********/
@@ -76,6 +79,7 @@
 /********/
 body {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 /***********/
@@ -111,21 +115,25 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: var(--navbar-height);
 }
 
 .navbar-item {
-  padding: 0.5rem;
+  height: var(--navbar-height);
   border-left: 1px solid var(--light-grey);
-  transition: background-color;
-  -webkit-transition: background-color;
-  -moz-transition: background-color;
-  -ms-transition: background-color;
-  -o-transition: background-color;
-
 }
 
 .navbar-item:hover {
   background-color: var(--dark-blue-red);
+}
+
+/* Image classes */
+.title-img {
+  height: var(--navbar-height);
+  margin-right: 8px;
 }
 
 /* Padding classes */
@@ -430,6 +438,9 @@ body {
 /*****************/
 /* Mobile screen size */
 @media screen and (max-width: 600px) {
+  :root {
+    --navbar-height: 2rem;
+  }
 
 }
 
