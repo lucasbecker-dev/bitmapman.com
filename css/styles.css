@@ -1,5 +1,25 @@
 /* Copyright ©️ Lucas Becker 2021. All rights reserved. */
 
+/*********/
+/* FONTS */
+/*********/
+@font-face {
+  font-family: Barlow;
+  src: url('../fonts/Barlow-Regular.ttf');
+}
+@font-face {
+  font-family: Barlow-Italic;
+  src: url('../fonts/Barlow-Italic.ttf');
+}
+@font-face {
+  font-family: Barlow-Bold;
+  src: url('../fonts/Barlow-Bold.ttf');
+}
+@font-face {
+  font-family: bitmapman;
+  src: url('../fonts/bitmapman.ttf');
+}
+
 /*************/
 /* ROOT VARS */
 /*************/
@@ -80,6 +100,11 @@
 body {
   scroll-behavior: smooth;
   margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'bitmapman', monospace;
 }
 
 /***********/
