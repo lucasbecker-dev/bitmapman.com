@@ -142,17 +142,29 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: var(--navbar-height);
 }
 
 .navbar-item {
   height: var(--navbar-height);
   border-left: 1px solid var(--light-grey);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .navbar-item:hover {
   background-color: var(--dark-blue-red);
+}
+
+.navbar-link:any-link {
+  color: var(--grey-white);
+  text-decoration: none;
 }
 
 /* Image classes */
