@@ -225,6 +225,31 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b1725",endCo
   min-height: fit-content;
 }
 
+/* Card classes */
+.card {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: var(--dark-red);
+  padding: 16px;
+  box-shadow: 2px 2px 8px #060608;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.card-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* Text Color classes */
 .text-color-light {
   color: var(--grey-white);
