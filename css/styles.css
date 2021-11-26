@@ -171,6 +171,29 @@ body {
   margin-right: 8px;
 }
 
+
+/* Text Color classes */
+.text-color-light {
+  color: var(--grey-white);
+}
+
+.text-color-dark {
+  color: var(--dark-black);
+}
+
+.text-color-light-sand {
+  color: var(--sand-white);
+}
+
+.text-color-dark-sand {
+  color: var(--sand-black);
+}
+
+/* Font Size classes */
+.big-font {
+  font-size: 3rem;
+}
+
 /* Padding classes */
 .p-0 {
   padding: 0;
