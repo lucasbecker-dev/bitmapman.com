@@ -124,7 +124,19 @@
 body {
   scroll-behavior: smooth;
   margin: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow-Light', sans-serif;
+}
+em, i {
+  font-family: 'Barlow-Light-Italic', sans-serif;
+}
+em strong, em b, i strong, i b, strong em, strong i, b em, b i {
+  font-family: 'Barlow-BoldItalic', sans-serif;
+}
+strong, b {
+  font-family: 'Barlow-Bold', sans-serif;
+}
+code {
+  font-family: 'JetBrainsMono', monospace;
 }
 
 /***********/
