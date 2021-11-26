@@ -133,6 +133,8 @@ body {
 .navbar {
   background-color: var(--blue-black);
   color: var(--grey-white);
+  position: fixed;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -155,7 +157,7 @@ body {
 }
 
 .navbar-item:hover {
-  background-color: var(--dark-blue-red);
+  background-color: var(--red-orange);
 }
 
 .navbar-link:any-link {
