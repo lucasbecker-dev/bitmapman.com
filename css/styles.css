@@ -5,19 +5,43 @@
 /*********/
 @font-face {
   font-family: Barlow;
-  src: url('../fonts/Barlow-Regular.ttf');
+  src: url('../fonts/Barlow/Barlow-Regular.ttf');
 }
 @font-face {
   font-family: Barlow-Italic;
-  src: url('../fonts/Barlow-Italic.ttf');
+  src: url('../fonts/Barlow/Barlow-Italic.ttf');
 }
 @font-face {
   font-family: Barlow-Bold;
-  src: url('../fonts/Barlow-Bold.ttf');
+  src: url('../fonts/Barlow/Barlow-Bold.ttf');
+}
+@font-face {
+  font-family: Barlow-BoldItalic;
+  src: url('../fonts/Barlow/Barlow-BoldItalic.ttf');
+}
+@font-face {
+  font-family: Barlow-SemiBold;
+  src: url('../fonts/Barlow/Barlow-SemiBold.ttf');
+}
+@font-face {
+  font-family: Barlow-SemiBoldItalic;
+  src: url('../fonts/Barlow/Barlow-SemiBoldItalic.ttf');
+}
+@font-face {
+  font-family: Barlow-Light;
+  src: url('../fonts/Barlow/Barlow-Light.ttf');
+}
+@font-face {
+  font-family: Barlow-Light-Italic;
+  src: url('../fonts/Barlow/Barlow-LightItalic.ttf');
 }
 @font-face {
   font-family: bitmapman;
-  src: url('../fonts/bitmapman.ttf');
+  src: url('../fonts/bitmapman/bitmapman.ttf');
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('../fonts/JetBrainsMono/JetBrainsMono-Regular.ttf')
 }
 
 /*************/
