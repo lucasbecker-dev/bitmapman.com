@@ -250,6 +250,25 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b1725",endCo
   flex-wrap: wrap;
 }
 
+/* Footer classes */
+.page-footer {
+  height: 20vh;
+  background-color: var(--blue-black);
+  color: var(--sand-white);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+}
+
+.page-footer small, p {
+  opacity: 80%;
+  font-family: Barlow, sans-serif;
+  font-size: 1rem;
+}
+
 /* Text Color classes */
 .text-color-light {
   color: var(--grey-white);
