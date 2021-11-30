@@ -1,4 +1,4 @@
-/* Copyright ©️ Lucas Becker 2021. All rights reserved. */
+/* Copyright © Lucas Becker 2021. All rights reserved. */
 
 /*********/
 /* FONTS */
@@ -213,11 +213,24 @@ code {
 }
 
 .section-dark-gradient-bg {
-background: rgb(59,23,37);
-background: -moz-linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
-background: -webkit-linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
-background: linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b1725",endColorstr="#fa6a0a",GradientType=1);
+  background: rgb(59,23,37);
+  background: -moz-linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
+  background: linear-gradient(120deg, rgba(59,23,37,1) 0%, rgba(115,23,45,1) 50%, rgba(250,106,10,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b1725",endColorstr="#fa6a0a",GradientType=1);
+}
+
+.section-dark-gradient-bg h2, p, a, small {
+  color: var(--grey-white);
+}
+
+.section-dark-gradient-bg a:any-link {
+  text-decoration: none;
+  color: var(--teal);
+}
+
+.section-dark-gradient-bg a:hover {
+  color: var(--light-teal);
 }
 
 .section-full-height {
